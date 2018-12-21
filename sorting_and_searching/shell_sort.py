@@ -5,7 +5,7 @@ def shell_sort(list_):
         for start_position in range(gap_size):
             gap_insertion_sort(list_, start_position, gap_size)
 
-        print "After insertion sort of gap_size:{}, the list is {}.".format(gap_size, list_)
+        print "After insertion sort of gap_size:{0}, the list is {1}.".format(gap_size, list_)
 
         gap_size = gap_size / 2
 

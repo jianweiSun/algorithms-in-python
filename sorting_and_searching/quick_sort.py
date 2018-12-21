@@ -1,8 +1,6 @@
 
 def quick_sort(list_, start, end):
-    if end - start <= 1:
-        pass
-    else:
+    if end > start:
         split_position = partition(list_, start, end)
         quick_sort(list_, start, split_position-1)
         quick_sort(list_, split_position+1, end)

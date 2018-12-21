@@ -32,7 +32,7 @@ class BinaryTree(object):
         if self.left_child:
             self.left_child.post_order()
         if self.right_child:
-            self.right_child.pre_order()
+            self.right_child.post_order()
         print self.root
 
     def in_order(self):
